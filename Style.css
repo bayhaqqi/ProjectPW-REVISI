@@ -1,0 +1,611 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+header {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #FF7F50;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	position: fixed;
+}
+header ul li {
+	width: 10%;
+	height: auto;
+	float: left;
+	list-style: none;
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+}
+header ul li:hover {
+	color: white;
+	border-radius: 2px;
+	background-color: #BA55D3;
+}
+header ul li:hover ul {
+	display: block;
+}
+header ul li ul {
+	display:  none;
+}
+header ul li ul li {
+	width: 100%;
+	height: 30px;
+	border: 3px;
+	color: white;
+	background-color: black;
+}
+header ul li ul li:hover {
+	color: black;
+	background-color: #BA55D3;
+}
+header img {
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	width: 80px;
+}
+div marquee {
+	color: white;
+	background:url(Image/d.jpg) ;
+	position: fixed;
+}
+.tengah {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align:left;
+	background: url(Image/b.jpg);
+	padding-top: 90px;
+}
+.page {
+	width:940px;
+	margin:0 auto;
+	background: url(Image/d.jpg);	
+	padding:20px;
+	color: black;
+}
+.bawah{
+	width: 100%;
+	height: 90pt;
+	margin: 0px;
+	text-align:left;
+	background: #FF7F50;
+}
+.bawah ul li {
+	list-style: none;
+}
+.bawahTengah {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+.bawahKiri {
+	width: 300px;
+	margin:auto;
+	float: left;
+	color: white;
+	padding: 15px;
+}
+.bawahKiri img {
+	width: 15%;
+}
+.keatas {
+	padding-right: 20px;
+	float: right;
+	text-align: center;
+	padding-top: 10px;
+}
+.keatas a button {
+	font-size: 20px;
+}
+.keatas a button:hover {
+	color: red;
+}
+#pengumuman{
+	height: 280px;
+	width: 120px;
+	position: fixed;
+	bottom: 25%;
+	right: 1%;
+	padding: 10px;
+	background: red;
+	border-radius: 5px;
+	display: none;
+	font-size: 13px;
+	color: white;
+}
+#pengumuman a {
+	text-decoration: none;
+	color: blue;
+}
+#pengumuman a:hover {
+	background-color: orange;
+	padding: 3px;
+	border-radius: 2px;
+	color: white;
+}
+#tutup{
+	right: 5px;
+	top: 5px;
+	float: right;
+}
+
+/* Pertol Berita */
+.page2per3 {
+	width: 540px;
+	list-style: none;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: left;
+	color: black;
+}
+.page1per3 {
+	width: 300px;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: right;
+	list-style: none;
+	color: black;
+}
+.garisBerita {
+	width: 580px;
+	color: black;
+}
+.berikutnyaBerita {
+	padding-left: 23%;
+	padding-top: 55%;
+}
+.page a {
+	text-decoration: none;
+	color: blue;
+}
+.page a:hover {
+	color: orange;
+	background-color: #5b264e;
+	border-radius: 2px;
+}
+.button {
+	padding: 5px;
+}
+.page1per3 table tr td {
+	text-align: center;
+}
+
+/*PENDAFTARAN*/
+.table {
+	width: 100%;
+	background: white;
+}
+
+.table th {
+	background: orange;
+	text-align: center;
+}
+
+/* Portal Dokumentasi */
+.pageDokumenKiri {
+	width: 420px;
+	list-style: none;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: left;
+}
+.pageDokumenKanan {
+	width: 420px;
+	background: #cacaca; /* putih abu */
+	padding: 20px;
+	float: right;
+	list-style: none;
+}
+.berikutnyaDokumen {
+	padding-left: 40.4%;
+	padding-top: 50%;
+}
+
+/*ORMAWA*/
+.pageLogoUKM {
+	width: 300px;
+	background: #54b6b6;
+	padding: 20px;
+	float: right;
+	list-style: none;
+	border-radius: 50px;
+}
+.linkOrmawa {
+	width: 500px;
+	height: 30px;
+	padding-left: 20%;
+	padding-top: 15%;
+}
+.himasif {
+	padding-top: 20%;
+}
+.laos {
+	padding-top: 25%;
+}
+.binary {
+	padding-top: 30%;
+}
+.maco {
+	padding-top: 12%;
+}
+.balwana {
+	padding-top: 8%;
+}
+.etalase {
+	padding-top: 12%;
+}
+
+/*KOTAK SARAN*/
+#pop{
+	height: 280px;
+	width: 470px;
+	position: fixed;
+	bottom: 25%;
+	right: 45%;
+	padding: 10px;
+	background: green;
+	border-radius: 5px;
+	display: none;
+}
+#close{
+	right: 5px;
+	top: 5px;
+	float: right;
+}
+
+
+/* RESPONSIVE */ 
+/* TABLET */
+@media screen and (max-width: 1024px) {
+
+/* home */
+	* {
+		margin: 0;
+		padding: 0;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+header {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #FF7F50;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	position: fixed;
+}
+header ul li {
+	width: 13%;
+	height: auto;
+	float: left;
+	list-style: none;
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+}
+header ul li:hover {
+	color: orange;
+	border-radius: 2px;
+	background-color: #5b264e;
+}
+header ul li:hover ul {
+	display: block;
+}
+header ul li ul {
+	display:  none;
+}
+header ul li ul li {
+	width: 100%;
+	height: 30px;
+	border: 3px;
+	color: white;
+	background-color: black;
+}
+header ul li ul li:hover {
+	color: orange;
+	background-color: #5b264e;
+}
+header img {
+	padding-top: 0px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 0px;
+	width: 80px;
+}
+div marquee {
+	color: white;
+	background:url(Image/d.jpg) ;
+	position: fixed;
+}
+.tengah {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align:left;
+	background: url(Image/b.jpg);
+	padding-top: 90px;
+}
+.page {
+	width:940px;
+	margin:0 auto;
+	background: url(Image/d.jpg);	
+	padding:20px;
+	color: black;
+}
+.bawah{
+	width: 100%;
+	height: 80pt;
+	margin: 0px;
+	text-align:left;
+	background: #FF7F50;
+}
+	#pengumuman{
+		height: 280px;
+		width: 160px;
+		position: fixed;
+		bottom: 25%;
+		right: 1%;
+		padding: 10px;
+		background: red;
+		border-radius: 5px;
+		display: none;
+		font-size: 10px;
+		color: white;
+	}
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+
+/* home */
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size: 12px;
+	}
+	header {
+		width: auto;
+		height: 360px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #FF7F50;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		position: relative;
+	}
+	header ul li {
+		width: auto;
+		height: auto;
+		float: none;
+		list-style: none;
+		text-align: center;
+		color: black;
+		padding-left: 0px;
+	}
+	header ul li:hover {
+		color: orange;
+		border-radius: 2px;
+		background-color: #5b264e;
+	}
+	header ul li:hover ul {
+		display: block;
+	}
+	header ul li ul {
+		display: none;
+	}
+	header ul li ul li {
+		width: 100%;
+		height: 30px;
+		border: 1px;
+		color: white;
+		background-color: black;
+	}
+	header ul li ul li:hover {
+		color: orange;
+		background-color: #5b264e;
+	}
+	header img {
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-bottom: 0px;
+		width: 50px;
+	}
+	div marquee {
+		color: white;
+		background: url(Image/d.jpg);
+		position: relative;
+	}
+	.tengah {
+		width: auto;
+		height: 100%;
+		margin: 0;
+		text-align:left;
+		background: url(Image/b.jpg);
+		padding-top: 0px;
+	}
+	.bawah{
+		width: auto;
+		height: 110pt;
+		margin: 0;
+		text-align:left;
+		background: black;
+	}
+	.page {
+		width:auto;
+		margin:0 auto;
+		background: #607676; /* biru es */
+		padding: auto;
+	}
+	.bawahTengah {
+		width: auto;
+		margin: auto;
+		text-align: center;
+		color: #FFFFFF; /*warna putih*/
+	}
+	.bawahKiri {
+		width: auto;
+		margin:auto;
+		float: none;
+		color: #FFFFFF;
+		padding: 10px;
+	}
+	.bawahKiri img {
+		width: 8%;
+	}
+	.keatas {
+		padding-right: 20px;
+		float: right;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.keatas a button {
+		font-size: 10px;
+	}
+	.keatas a button:hover {
+		color: red;
+	}
+	#pengumuman{
+		height: 280px;
+		width: 120px;
+		position: fixed;
+		bottom: 25%;
+		right: 1%;
+		padding: 10px;
+		background: red;
+		border-radius: 5px;
+		display: none;
+		font-size: 10px;
+		color: white;
+	}
+
+/* portal berita */
+	.page2per3 {
+		width: auto;
+		list-style: none;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: none;
+		color: black;
+	}
+	.page1per3 {
+		width: auto;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: none;
+		list-style: none;
+		margin-top: 20px;
+	}
+	.garisBerita {
+		width: auto;
+		color: black;
+	}
+	.berikutnyaBerita {
+		padding-left: 30%;
+		padding-top: 25%;
+	}
+	.page a {
+		text-decoration: none;
+		color: blue;
+	}
+	.page a:hover {
+		color: orange;
+		background-color: #FF7F50;
+		border-radius: 2px;
+	}
+	.button {
+		padding: 3px;
+	}
+	.page1per3 table tr td {
+		text-align: left;
+	}
+
+/*PENDAFTARAN*/
+	.table {
+		width: auto;
+		background: white;
+		float: none;
+	}
+	.table th {
+		background: green;
+		text-align: center;
+	}
+	.page form table tr td {
+		width: 50px;
+	}
+
+/* Portal Dokumentasi */
+	.pageDokumenKiri {
+		width: 35%;
+		list-style: none;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: left;
+	}
+	.pageDokumenKanan {
+		width: 35%;
+		background: #cacaca; /* putih abu */
+		padding: 20px;
+		float: right;
+		list-style: none;
+	}
+	.berikutnyaDokumen {
+		padding-left: 30%;
+		padding-top: 90%;
+	}
+
+/*ORMAWA*/
+	.pageLogoUKM {
+		width: 150px;
+		background: url(Image/b.jpg);
+		padding: 20px;
+		float: none;
+		list-style: none;
+		border-radius: 75px;
+	}
+	.linkOrmawa {
+		width: auto;
+		height: 30px;
+		padding-left: 20%;
+		padding-top: 15%;
+	}
+	.laos {
+		padding-top: 18%;
+	}
+	.maco {
+		padding-top: 8%;
+	}
+	.etalase {
+		padding-top: 3%;
+	}
+	.binary {
+		padding-top: 15%;
+	}
+
+/*KOTAK SARAN*/
+	#pop{
+		height: 150px;
+		width: auto;
+		position: fixed;
+		bottom: 25%;
+		right: 45%;
+		padding: 5px;
+		background: green;
+		border-radius: 5px;
+		display: none;
+	}
+	#close{
+		right: 5px;
+		top: 5px;
+		float: right;
+	}
+}
